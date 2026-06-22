@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mama Traders</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#002244;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+section{
+    padding:40px;
+}
+
+.products{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mama Traders</h1>
+    <p>Supplier of Scrap Marble, Silica Sand & Himalayan Salt</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Mama Traders is a trusted supplier of Scrap Marble,
+        Silica Sand and Himalayan Salt. We provide quality
+        materials for construction and industrial use.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+
+    <div class="products">
+        <div class="card">
+            <h3>Scrap Marble</h3>
+            <p>High-quality marble chips and scrap marble pieces.</p>
+        </div>
+
+        <div class="card">
+            <h3>Silica Sand</h3>
+            <p>Premium silica sand for industrial applications.</p>
+        </div>
+
+        <div class="card">
+            <h3>Himalayan Salt</h3>
+            <p>Natural Himalayan pink salt available in bulk quantities.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 03128812884</p>
+    <p>Email: zskhanco@gmail.com</p>
+    <p>Address: Karachi, Pakistan</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mama Traders. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
